@@ -1,5 +1,4 @@
-var SatorV2 = artifacts.require("SatorV2");
-module.exports = function(deployer) {
-    deployer.deploy(SatorV2);
-    // Additional contracts can be deployed here
+var Sator721 = artifacts.require("Sator721");
+module.exports = async function(deployer) {
+    deployer.deploy(Sator721);
 };
