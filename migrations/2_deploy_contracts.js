@@ -1,4 +1,4 @@
-var Sator721 = artifacts.require("Sator721");
+var token = artifacts.require("Almighty");
 module.exports = async function(deployer) {
-    deployer.deploy(Sator721);
+    deployer.deploy(token);
 };
